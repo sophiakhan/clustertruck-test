@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+/*nav*/
+.nav-bar {
+  background-color: rgba(233, 76, 11, .75);
+  padding: 15px;
+  color: white;
+}
+
+.fa-cutlery {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  padding-top: 7px;
+}
+
+/*body*/
+
+#forecast {
+  font-family: 'Playfair Display', serif;
+}
+
+#intro-body {
+  font-family: 'Muli', sans-serif;
+}
+

@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
+import Nav from './Nav.js'
+//import KitchenAPI from './KitchenAPI.js'
+
 
 class App extends Component {
   render() {
     return (
       <div className="App">
         <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+          <Nav />
         </div>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+
+        <div className="App-body container">
+          <h1 className="text-center" id="forecast">Forecast your feast.</h1>
+          <h5 className="text-center" id="intro-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure iste, suscipit iusto quaerat aliquid voluptatum! Nam, rerum culpa saepe minus unde eveniet, facere dolorum voluptate libero rem veniam accusantium numquam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis doloribus aliquam aperiam sequi dolorem iure in itaque, tempora obcaecati labore fugiat sed perferendis, atque voluptates, eligendi consequuntur ut ad soluta!</h5>
+        </div>
       </div>
     );
   }
