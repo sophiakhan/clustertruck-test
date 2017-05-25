@@ -9,7 +9,6 @@ class KitchenAPI extends React.Component {
             kitchens: [],
             location: {}
         }
-
     }
 
     componentDidMount() {
